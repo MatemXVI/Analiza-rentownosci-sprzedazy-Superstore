@@ -8,9 +8,9 @@ Projekt polegał na przekształceniu surowych danych sprzedażowych w interaktyw
 Zastosowałem **model gwiazdy** (Star Schema), łącząc tabelę faktów (Sprzedaż) z tabelami wymiarów (Produkty, Klienci, Zamówienia) za pomocą relacji jeden-do-wielu (1:*).
 
 ## Raport
-![Model](img/strona1.PNG)
-![Model](img/strona2.PNG)
-![Model](img/strona3.PNG)
+![Strona 1](img/strona1.PNG)
+![Strona 2](img/strona2.PNG)
+![Strona 3](img/strona3.PNG)
 
 ## Kluczowe wnioski (Insights)
 * **Ogólna kondycja**: Firma osiągnęła sprzedaż na poziomie **2,30 mln USD** przy zysku wynoszącym **286,40 tys. USD**.
@@ -19,5 +19,6 @@ Zastosowałem **model gwiazdy** (Star Schema), łącząc tabelę faktów (Sprzed
 * **Produkty "Stratne"**: Wykryłem krytyczne straty w podkategorii drukarek 3D, gdzie model **Cubify CubeX** generuje największe ujemne marże w całym portfolio.
 
 ## Zawartość repozytorium
-* `Analiza_Superstore.pbix` – pełny plik projektu Power BI.
-* `portfolio.pdf` – kompletny raport ze wszystkimi stronami analizy.
+* `superstore.pbix` – pełny plik projektu Power BI.
+* `superstore.pdf` – kompletny raport ze wszystkimi stronami analizy.
+* `img` – folder ze zdjęciami raportu i modelu
