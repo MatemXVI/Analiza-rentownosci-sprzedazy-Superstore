@@ -4,8 +4,13 @@
 Projekt polegał na przekształceniu surowych danych sprzedażowych w interaktywny dashboard analityczny. Głównym celem była identyfikacja czynników wpływających na rentowność oraz wskazanie produktów generujących straty.
 
 ## Model Danych
-![Model](img/model.png)
+![Model](img/model.PNG)
 Zastosowałem **model gwiazdy** (Star Schema), łącząc tabelę faktów (Sprzedaż) z tabelami wymiarów (Produkty, Klienci, Zamówienia) za pomocą relacji jeden-do-wielu (1:*).
+
+## Raport
+![Model](img/strona1.PNG)
+![Model](img/strona2.PNG)
+![Model](img/strona3.PNG)
 
 ## Kluczowe wnioski (Insights)
 * **Ogólna kondycja**: Firma osiągnęła sprzedaż na poziomie **2,30 mln USD** przy zysku wynoszącym **286,40 tys. USD**.
