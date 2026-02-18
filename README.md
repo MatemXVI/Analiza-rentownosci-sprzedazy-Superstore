@@ -17,6 +17,7 @@ Zastosowałem **model gwiazdy** (Star Schema), łącząc tabelę faktów (Sprzed
 * **Anomalie sprzedażowe**: Zidentyfikowałem, że duże skoki sprzedaży w kategorii *Technology* (np. w 2015 r.) często wynikają z jednostkowych, dużych transakcji, a nie stałego trendu wzrostowego.
 * **Produkty "Gwiazdy"**: Najwyższy zysk generują urządzenia biurowe, w szczególności **Canon imageCLASS 2200 Advanced Copier**.
 * **Produkty "Stratne"**: Wykryłem krytyczne straty w podkategorii drukarek 3D, gdzie model **Cubify CubeX** generuje największe ujemne marże w całym portfolio.
+* **DAX**: Wykorzystałem miary DAX do liczenia sumy, średniej oraz filtrowania 5 najmniejszych/największych rekordów
 
 ## Zawartość repozytorium
 * `superstore.pbix` – pełny plik projektu Power BI.
